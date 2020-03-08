@@ -1,0 +1,29 @@
+		<div class="container-fluid mx-auto">
+			<div class="row">
+				<br>
+				<br>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="mx-auto col-8 col-sm-6 col-md-4 col-lg-3 p-3 bg-light">
+						<form name="gateway_loginform" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="POST" >
+							<li>
+								<input type="email" class="col-12 py-2 my-1" name="login_email" placeholder="E-mail Address" autocomplete="on" required/>
+							</li>
+							<li>
+								<input type="password" class="col-12 py-2 mt-1 mb-3" name="login_pass" placeholder="Password" autocomplete="off" required/>
+							</li>
+							<li>
+								<input type="submit" class="btn btn-success col-12 py-1 my-1" name="gateway_login" value="LOG-IN" />
+							</li>
+							<li>
+								<input type="submit" class="btn btn-primary col-12 py-1 my-1" name="gateway_guest" value="LOG-IN AS GUEST" />
+							</li>
+							<li>
+								<a href="signup.php">Create an account</a>
+							</li>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
